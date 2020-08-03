@@ -34,13 +34,6 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
-    'facebook' => [
-        'client_id' => env('FACEBOOK_APP_ID'),
-        'client_secret' => env('FACEBOOK_APP_SECRET'),
-        'redirect' => env('FACEBOOK_REDIRECT'),
-    ],
-
-
     'twitter' => [
         'client_id' => env('TWITTER_APP_KEY'),
         'client_secret' => env('TWITTER_APP_SECRET'),

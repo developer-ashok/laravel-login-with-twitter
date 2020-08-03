@@ -1,6 +1,6 @@
 <?php
 
-// SocialFacebookAccount.php
+// SocialTwitterAccount.php
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;

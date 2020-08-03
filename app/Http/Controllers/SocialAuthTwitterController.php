@@ -8,7 +8,7 @@ use App\Services\SocialTwitterAccountService;
 class SocialAuthTwitterController extends Controller
 {
   /**
-   * Create a redirect method to facebook api.
+   * Create a redirect method to twitter api.
    *
    * @return void
    */
@@ -18,9 +18,9 @@ class SocialAuthTwitterController extends Controller
     }
     
     /**
-     * Return a callback method from facebook api.
+     * Return a callback method from twitter api.
      *
-     * @return callback URL from facebook
+     * @return callback URL from twitter
      */
     public function callback(SocialTwitterAccountService $service, Request $request)
     {
