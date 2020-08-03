@@ -21,7 +21,7 @@ Laravel has the most extensive and thorough documentation and video tutorial lib
 2. install composer dependency [composer install]
 3. php artisan serve
 
-<a href="https://codescompanion.com/easy-integration-of-twitter-login-with-laravel-5-x">Read more..</a>.
+<a href="https://codescompanion.com/easy-integration-of-laravel-5-x-login-with-twitter-using-socialite">Read more..</a>.
 
 
 ## Contributing
