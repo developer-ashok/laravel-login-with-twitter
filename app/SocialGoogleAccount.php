@@ -1,11 +1,11 @@
 <?php
 
-// SocialTwitterAccount.php
+// SocialGoogleAccount.php
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class SocialTwitterAccount extends Model
+class SocialGoogleAccount extends Model
 {
   protected $fillable = ['user_id', 'provider_user_id', 'provider'];
   public function user()

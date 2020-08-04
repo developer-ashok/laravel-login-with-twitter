@@ -1,25 +1,25 @@
 <?php
 namespace App\Services;
-use App\SocialTwitterAccount;
+use App\SocialGoogleAccount;
 use App\User;
 use Laravel\Socialite\Contracts\User as ProviderUser;
 use Illuminate\Support\Facades\Mail;
 
 
-class SocialTwitterAccountService
+class SocialGoogleAccountService
 {
     public function createOrGetUser(ProviderUser $providerUser)
     {
-        $account = SocialTwitterAccount::whereProvider('twitter')
+        $account = SocialGoogleAccount::whereProvider('google')
             ->whereProviderUserId($providerUser->getId())
             ->first();
 
         if ($account) {
             return $account->user;
         } else {
-            $account = new SocialTwitterAccount([
+            $account = new SocialGoogleAccount([
                 'provider_user_id' => $providerUser->getId(),
-                'provider' => 'twitter'
+                'provider' => 'google'
             ]);
             $user = User::whereEmail($providerUser->getEmail())->first();
             if (!$user) {
