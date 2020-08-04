@@ -1,5 +1,5 @@
-## laravel-login-with-google
-laravel login with google easy integration
+## laravel-login-with-twitter
+laravel login with twitter easy integration
 
 <p><a href="https://travis-ci.org/stripe/stripe-php" rel="nofollow noindex noopener external"><img src="https://camo.githubusercontent.com/c19cac7204126671fc23b887d2084fe5e7fb0b38/68747470733a2f2f7472617669732d63692e6f72672f7374726970652f7374726970652d7068702e7376673f6272616e63683d6d6173746572" alt="Build Status"></a>
 <a href="https://packagist.org/packages/stripe/stripe-php" rel="nofollow noindex noopener external"><img src="https://camo.githubusercontent.com/86d735b822aaf5f5c05fe6910ff35b85d574b178/68747470733a2f2f706f7365722e707567782e6f72672f7374726970652f7374726970652d7068702f762f737461626c652e737667" alt="Latest Stable Version"></a>
@@ -17,11 +17,11 @@ Laravel has the most extensive and thorough documentation and video tutorial lib
 
 ## How to install package
 
-1. clone package [git clone https://github.com/developer-ashok/laravel-login-with-google]
+1. clone package [git clone https://github.com/developer-ashok/laravel-login-with-twitter]
 2. install composer dependency [composer install]
 3. php artisan serve
 
-<a href="https://codescompanion.com/easy-integration-of-laravel-5-x-login-with-google-using-socialite">Read more..</a>.
+<a href="https://codescompanion.com/easy-integration-of-laravel-5-x-login-with-twitter-using-socialite">Read more..</a>.
 
 
 ## Contributing

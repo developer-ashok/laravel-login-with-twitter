@@ -19,6 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//For Google login
-Route::get('/redirect', 'SocialAuthGoogleController@redirect');
-Route::get('/callback-google', 'SocialAuthGoogleController@callback');
+//For twitter login
+Route::get('/redirect', 'SocialAuthTwitterController@redirect');
+Route::get('/callback-twitter', 'SocialAuthTwitterController@callback');

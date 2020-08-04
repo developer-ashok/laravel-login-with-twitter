@@ -34,9 +34,9 @@ return [
         'secret' => env('SPARKPOST_SECRET'),
     ],
 
-    'google' => [
-        'client_id' => env('GOOGLE_APP_KEY'),
-        'client_secret' => env('GOOGLE_APP_SECRET'),
-        'redirect' => env('GOOGLE_REDIRECT'),
+    'twitter' => [
+        'client_id' => env('TWITTER_APP_KEY'),
+        'client_secret' => env('TWITTER_APP_SECRET'),
+        'redirect' => env('TWITTER_REDIRECT'),
     ],
 ];
